@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panocompactgs"
+version = "8.8.0"
+description = "Compact deployment-quantized PanoCompactGS codec for Phase6.4"
+requires-python = ">=3.10"
+dependencies = ["numpy==1.26.4", "plyfile==0.8.1", "einops>=0.6"]
+
+[project.scripts]
+panocompactgs = "pcgs.cli:main"
+
+[tool.setuptools]
+packages = ["pcgs"]

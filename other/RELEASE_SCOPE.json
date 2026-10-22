@@ -1,0 +1,44 @@
+{
+  "release_type": "selected_original_source_files",
+  "baseline": "previously reviewed 43-scene release inventory, not the entire development workspace",
+  "baseline_files": 212,
+  "included_baseline_files": 174,
+  "withheld_key_files": [],
+  "omitted_auxiliary_files": 38,
+  "new_documentation": [
+    "docs/DATASETS.md",
+    "RELEASE_SCOPE.json"
+  ],
+  "algorithm_replacements_added": false,
+  "synthetic_fixture_added": false,
+  "full_pipeline_runnable": false,
+  "prior_65_tests_apply_to_this_release": false,
+  "uploaded_to_github": false,
+  "sh_selector_included": true,
+  "core_codec_source_complete": true,
+  "full_pipeline_limit": "Native renderer, full feedback controller, batch experiments, data and trained models are outside this release.",
+  "additional_runtime_metadata": [
+    "third_party/entropy_backend/UPSTREAM_COMMIT"
+  ],
+  "local_tests": {
+    "passed": 93,
+    "failed": 0,
+    "skipped": 0,
+    "cuda_tests": 3
+  },
+  "real_scene_demo": {
+    "dataset": "OmniPhotos",
+    "scene": "Field",
+    "variant": "A2C SH-selection candidate",
+    "path": "demo/OmniPhotos_Field",
+    "copied_existing_results": true,
+    "new_checks_performed_for_demo_copy": false,
+    "new_training_performed": false,
+    "historical_validation_views": 13,
+    "formal_paper_test_result": false,
+    "purpose": "static existing result example",
+    "runnable_with_uploaded_code_required": false,
+    "compatibility_with_uploaded_code_claimed": false,
+    "execution_script_included": false
+  }
+}
