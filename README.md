@@ -1,4 +1,4 @@
-# PanoCompactGS — selected Phase8.8 source
+# Panoramic 3D Gaussian Splatting Compression via Spherical RD-Guided SH Reallocation
 
 关键代码及本次发布范围内的配套配置均已开源，包括熵模型、训练与编解码、SH 选择，以及 43 场景清单和源码中的默认参数配置。
 
