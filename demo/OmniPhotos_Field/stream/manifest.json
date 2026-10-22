@@ -1,0 +1,1770 @@
+{
+  "arithmetic_chunk_size": 16000,
+  "attribute_dim": 56,
+  "attribute_group_schema": {
+    "attribute_dim": 56,
+    "dtype": "<f4",
+    "format": "phase8.6_semantic_groups_v1",
+    "groups": [
+      {
+        "active_count": 355410,
+        "min_sh_level": null,
+        "name": "dc",
+        "start": 0,
+        "stop": 3,
+        "width": 3
+      },
+      {
+        "active_count": 355410,
+        "min_sh_level": null,
+        "name": "opacity_scale",
+        "start": 48,
+        "stop": 52,
+        "width": 4
+      },
+      {
+        "active_count": 355410,
+        "min_sh_level": null,
+        "name": "rotation",
+        "start": 52,
+        "stop": 56,
+        "width": 4
+      },
+      {
+        "active_count": 19209,
+        "min_sh_level": 1,
+        "name": "sh_d1",
+        "start": 3,
+        "stop": 12,
+        "width": 9
+      },
+      {
+        "active_count": 1403,
+        "min_sh_level": 2,
+        "name": "sh_d2",
+        "start": 12,
+        "stop": 27,
+        "width": 15
+      },
+      {
+        "active_count": 1403,
+        "min_sh_level": 3,
+        "name": "sh_d3",
+        "start": 27,
+        "stop": 48,
+        "width": 21
+      }
+    ],
+    "point_count": 355410
+  },
+  "attribute_group_streams": [
+    {
+      "active_count": 355410,
+      "chunk_count": 67,
+      "file_base": "attributes_dc.b",
+      "name": "dc",
+      "symbol_count": 1066230,
+      "width": 3
+    },
+    {
+      "active_count": 355410,
+      "chunk_count": 89,
+      "file_base": "attributes_opacity_scale.b",
+      "name": "opacity_scale",
+      "symbol_count": 1421640,
+      "width": 4
+    },
+    {
+      "active_count": 355410,
+      "chunk_count": 89,
+      "file_base": "attributes_rotation.b",
+      "name": "rotation",
+      "symbol_count": 1421640,
+      "width": 4
+    },
+    {
+      "active_count": 19209,
+      "chunk_count": 11,
+      "file_base": "attributes_sh_d1.b",
+      "name": "sh_d1",
+      "symbol_count": 172881,
+      "width": 9
+    },
+    {
+      "active_count": 1403,
+      "chunk_count": 2,
+      "file_base": "attributes_sh_d2.b",
+      "name": "sh_d2",
+      "symbol_count": 21045,
+      "width": 15
+    },
+    {
+      "active_count": 1403,
+      "chunk_count": 2,
+      "file_base": "attributes_sh_d3.b",
+      "name": "sh_d3",
+      "symbol_count": 29463,
+      "width": 21
+    }
+  ],
+  "attribute_layout": [
+    [
+      "features_dc",
+      3
+    ],
+    [
+      "features_rest_target",
+      45
+    ],
+    [
+      "opacity",
+      1
+    ],
+    [
+      "scaling",
+      3
+    ],
+    [
+      "rotation",
+      4
+    ]
+  ],
+  "attribute_symbol_count": 4132899,
+  "base_steps": [
+    0.01769470050930977,
+    0.01729910634458065,
+    0.0174386166036129,
+    0.003072062972933054,
+    0.0030328859575092793,
+    0.0031723948195576668,
+    0.005117875523865223,
+    0.00509303156286478,
+    0.005016588140279055,
+    0.003248838009312749,
+    0.0029755535069853067,
+    0.003026197198778391,
+    0.0032077499199658632,
+    0.0030433968640863895,
+    0.003106462536379695,
+    0.005104498006403446,
+    0.005123608745634556,
+    0.005083476193249226,
+    0.004317132290452719,
+    0.004213934298604727,
+    0.004200556315481663,
+    0.004800635855644941,
+    0.0047910804860293865,
+    0.004861790686845779,
+    0.0035097007639706135,
+    0.00406009191647172,
+    0.004037159029394388,
+    0.0039330050349235535,
+    0.003658764995634556,
+    0.0033969469368457794,
+    0.004432752728462219,
+    0.004410775378346443,
+    0.0043954867869615555,
+    0.005966395605355501,
+    0.006098260171711445,
+    0.006103993393480778,
+    0.005001299548894167,
+    0.005049076396971941,
+    0.005054809618741274,
+    0.005459959153085947,
+    0.005479069892317057,
+    0.005645333789288998,
+    0.004999388474971056,
+    0.005049076396971941,
+    0.005056720692664385,
+    0.004804458003491163,
+    0.004873257130384445,
+    0.004869434982538223,
+    0.024763790890574455,
+    0.03035179153084755,
+    0.03200678899884224,
+    0.030837206169962883,
+    0.005179985426366329,
+    0.0046764155849814415,
+    0.005857463926076889,
+    0.004496774170547724
+  ],
+  "centers": [
+    6.4892578125,
+    6.06640625,
+    5.9013671875,
+    0.04052734375,
+    0.087890625,
+    0.1611328125,
+    0.24609375,
+    0.2431640625,
+    0.2802734375,
+    0.34765625,
+    0.3154296875,
+    0.23388671875,
+    0.35400390625,
+    0.26708984375,
+    0.21240234375,
+    0.2685546875,
+    0.2451171875,
+    0.26171875,
+    -0.0107421875,
+    -0.0205078125,
+    0.044921875,
+    0.427734375,
+    0.4189453125,
+    0.380859375,
+    0.06982421875,
+    0.32568359375,
+    0.29833984375,
+    0.390625,
+    0.27099609375,
+    0.08251953125,
+    0.59033203125,
+    0.595703125,
+    0.61328125,
+    0.353515625,
+    0.3056640625,
+    0.3203125,
+    -0.3017578125,
+    -0.271484375,
+    -0.2802734375,
+    0.6201171875,
+    0.6298828125,
+    0.560546875,
+    0.302734375,
+    0.271484375,
+    0.279296875,
+    -0.4453125,
+    -0.478515625,
+    -0.322265625,
+    5.595703125,
+    -9.474609375,
+    -8.06640625,
+    -7.3984375,
+    1.22802734375,
+    0.1767578125,
+    0.0107421875,
+    -0.0087890625
+  ],
+  "coded_stream_bits": {
+    "attribute_groups": {
+      "dc": 6925080,
+      "opacity_scale": 10627456,
+      "rotation": 10977568,
+      "sh_d1": 796400,
+      "sh_d2": 103816,
+      "sh_d3": 142848
+    },
+    "attributes": 29573168,
+    "geometry": 7782736,
+    "geometry_collisions": 280800,
+    "hard_points": 17720,
+    "hash": 107776,
+    "model": 266048,
+    "sh_levels": 116568
+  },
+  "collision_codec": "raw_f32_collision_records_v1",
+  "decoded_tensor_sha256": "7b5d578ceafad40bca3f2f397a65e38210a3b551764a268784ef14b900e181c1",
+  "deployment": {
+    "bytes": 33256,
+    "format": "phase8.8_compact_deployment",
+    "mode": "int8",
+    "schema": {
+      "context_trunk.0.bias": {
+        "dtype": "float32",
+        "shape": [
+          64
+        ]
+      },
+      "context_trunk.0.weight": {
+        "dtype": "float32",
+        "shape": [
+          64,
+          45
+        ]
+      },
+      "group_heads.0.bias": {
+        "dtype": "float32",
+        "shape": [
+          15
+        ]
+      },
+      "group_heads.0.weight": {
+        "dtype": "float32",
+        "shape": [
+          15,
+          90
+        ]
+      },
+      "group_heads.1.bias": {
+        "dtype": "float32",
+        "shape": [
+          20
+        ]
+      },
+      "group_heads.1.weight": {
+        "dtype": "float32",
+        "shape": [
+          20,
+          90
+        ]
+      },
+      "group_heads.2.bias": {
+        "dtype": "float32",
+        "shape": [
+          20
+        ]
+      },
+      "group_heads.2.weight": {
+        "dtype": "float32",
+        "shape": [
+          20,
+          90
+        ]
+      },
+      "group_heads.3.bias": {
+        "dtype": "float32",
+        "shape": [
+          45
+        ]
+      },
+      "group_heads.3.weight": {
+        "dtype": "float32",
+        "shape": [
+          45,
+          90
+        ]
+      },
+      "group_heads.4.bias": {
+        "dtype": "float32",
+        "shape": [
+          75
+        ]
+      },
+      "group_heads.4.weight": {
+        "dtype": "float32",
+        "shape": [
+          75,
+          90
+        ]
+      },
+      "group_heads.5.bias": {
+        "dtype": "float32",
+        "shape": [
+          105
+        ]
+      },
+      "group_heads.5.weight": {
+        "dtype": "float32",
+        "shape": [
+          105,
+          90
+        ]
+      },
+      "prefix_projections.0.weight": {
+        "dtype": "float32",
+        "shape": [
+          24,
+          3
+        ]
+      },
+      "prefix_projections.1.weight": {
+        "dtype": "float32",
+        "shape": [
+          24,
+          4
+        ]
+      },
+      "prefix_projections.2.weight": {
+        "dtype": "float32",
+        "shape": [
+          24,
+          4
+        ]
+      },
+      "prefix_projections.3.weight": {
+        "dtype": "float32",
+        "shape": [
+          24,
+          9
+        ]
+      },
+      "prefix_projections.4.weight": {
+        "dtype": "float32",
+        "shape": [
+          24,
+          15
+        ]
+      },
+      "prefix_projections.5.weight": {
+        "dtype": "float32",
+        "shape": [
+          24,
+          21
+        ]
+      }
+    },
+    "sha256": "259bfb9d326bb35c9f55744a77873d9e9a2b5317b61830b126c51431d12656e5",
+    "tensor_count": 20,
+    "version": 1
+  },
+  "deployment_training": {
+    "destructive_projection": false,
+    "format": "phase8.8_fake_quant_training_v2",
+    "fp32_master_weights": true,
+    "mode": "int8",
+    "ste_fake_quant_forward": true
+  },
+  "format": "phase8.8_hacpp_phase64_v10",
+  "geometry_bits": 20,
+  "geometry_collisions": {
+    "extra_points": 1043,
+    "groups": 806,
+    "max_multiplicity": 9,
+    "points": 1849
+  },
+  "geometry_order": "stable_morton_3d_60bit_v1",
+  "hard_q_scale": 0.5,
+  "hash_numel": 107392,
+  "improvements": [
+    "seam_free_spherical_hash_context",
+    "two_gaussian_mixture_entropy_model",
+    "phase6.4_hard_point_adaptive_quantization",
+    "safe_compact_int8_or_fp16_entropy_decoder",
+    "sh_level_sparse_entropy_stream",
+    "stable_true_morton_geometry_order",
+    "checkpoint_scene_binding",
+    "sha256_stream_integrity",
+    "native_erp_rate_distortion_quantization_profile",
+    "sensitivity_aware_learned_sh_level_selector",
+    "conditional_hierarchical_sh_level_stream",
+    "causal_semantic_group_entropy_context",
+    "decoded_integer_prefix_conditioning",
+    "camera_centered_direction_and_log_radius_context",
+    "fp32_master_ste_fake_quant_training",
+    "encode_after_exact_deployment_reload"
+  ],
+  "integrity": {
+    "files": [
+      {
+        "bytes": 14959,
+        "name": "attributes_dc_0.b"
+      },
+      {
+        "bytes": 9424,
+        "name": "attributes_dc_1.b"
+      },
+      {
+        "bytes": 13930,
+        "name": "attributes_dc_10.b"
+      },
+      {
+        "bytes": 14100,
+        "name": "attributes_dc_11.b"
+      },
+      {
+        "bytes": 13997,
+        "name": "attributes_dc_12.b"
+      },
+      {
+        "bytes": 13933,
+        "name": "attributes_dc_13.b"
+      },
+      {
+        "bytes": 14046,
+        "name": "attributes_dc_14.b"
+      },
+      {
+        "bytes": 13756,
+        "name": "attributes_dc_15.b"
+      },
+      {
+        "bytes": 13123,
+        "name": "attributes_dc_16.b"
+      },
+      {
+        "bytes": 13075,
+        "name": "attributes_dc_17.b"
+      },
+      {
+        "bytes": 13005,
+        "name": "attributes_dc_18.b"
+      },
+      {
+        "bytes": 13040,
+        "name": "attributes_dc_19.b"
+      },
+      {
+        "bytes": 14280,
+        "name": "attributes_dc_2.b"
+      },
+      {
+        "bytes": 12958,
+        "name": "attributes_dc_20.b"
+      },
+      {
+        "bytes": 12987,
+        "name": "attributes_dc_21.b"
+      },
+      {
+        "bytes": 13050,
+        "name": "attributes_dc_22.b"
+      },
+      {
+        "bytes": 12669,
+        "name": "attributes_dc_23.b"
+      },
+      {
+        "bytes": 12936,
+        "name": "attributes_dc_24.b"
+      },
+      {
+        "bytes": 12720,
+        "name": "attributes_dc_25.b"
+      },
+      {
+        "bytes": 13004,
+        "name": "attributes_dc_26.b"
+      },
+      {
+        "bytes": 12464,
+        "name": "attributes_dc_27.b"
+      },
+      {
+        "bytes": 12509,
+        "name": "attributes_dc_28.b"
+      },
+      {
+        "bytes": 13245,
+        "name": "attributes_dc_29.b"
+      },
+      {
+        "bytes": 14384,
+        "name": "attributes_dc_3.b"
+      },
+      {
+        "bytes": 13377,
+        "name": "attributes_dc_30.b"
+      },
+      {
+        "bytes": 13142,
+        "name": "attributes_dc_31.b"
+      },
+      {
+        "bytes": 12690,
+        "name": "attributes_dc_32.b"
+      },
+      {
+        "bytes": 12994,
+        "name": "attributes_dc_33.b"
+      },
+      {
+        "bytes": 13578,
+        "name": "attributes_dc_34.b"
+      },
+      {
+        "bytes": 12505,
+        "name": "attributes_dc_35.b"
+      },
+      {
+        "bytes": 12559,
+        "name": "attributes_dc_36.b"
+      },
+      {
+        "bytes": 12356,
+        "name": "attributes_dc_37.b"
+      },
+      {
+        "bytes": 11966,
+        "name": "attributes_dc_38.b"
+      },
+      {
+        "bytes": 12804,
+        "name": "attributes_dc_39.b"
+      },
+      {
+        "bytes": 13812,
+        "name": "attributes_dc_4.b"
+      },
+      {
+        "bytes": 12113,
+        "name": "attributes_dc_40.b"
+      },
+      {
+        "bytes": 11678,
+        "name": "attributes_dc_41.b"
+      },
+      {
+        "bytes": 12462,
+        "name": "attributes_dc_42.b"
+      },
+      {
+        "bytes": 12023,
+        "name": "attributes_dc_43.b"
+      },
+      {
+        "bytes": 12472,
+        "name": "attributes_dc_44.b"
+      },
+      {
+        "bytes": 13133,
+        "name": "attributes_dc_45.b"
+      },
+      {
+        "bytes": 12401,
+        "name": "attributes_dc_46.b"
+      },
+      {
+        "bytes": 12522,
+        "name": "attributes_dc_47.b"
+      },
+      {
+        "bytes": 12914,
+        "name": "attributes_dc_48.b"
+      },
+      {
+        "bytes": 13037,
+        "name": "attributes_dc_49.b"
+      },
+      {
+        "bytes": 15226,
+        "name": "attributes_dc_5.b"
+      },
+      {
+        "bytes": 12699,
+        "name": "attributes_dc_50.b"
+      },
+      {
+        "bytes": 12490,
+        "name": "attributes_dc_51.b"
+      },
+      {
+        "bytes": 12292,
+        "name": "attributes_dc_52.b"
+      },
+      {
+        "bytes": 12326,
+        "name": "attributes_dc_53.b"
+      },
+      {
+        "bytes": 12726,
+        "name": "attributes_dc_54.b"
+      },
+      {
+        "bytes": 12443,
+        "name": "attributes_dc_55.b"
+      },
+      {
+        "bytes": 12626,
+        "name": "attributes_dc_56.b"
+      },
+      {
+        "bytes": 12901,
+        "name": "attributes_dc_57.b"
+      },
+      {
+        "bytes": 13692,
+        "name": "attributes_dc_58.b"
+      },
+      {
+        "bytes": 13633,
+        "name": "attributes_dc_59.b"
+      },
+      {
+        "bytes": 14967,
+        "name": "attributes_dc_6.b"
+      },
+      {
+        "bytes": 13192,
+        "name": "attributes_dc_60.b"
+      },
+      {
+        "bytes": 13654,
+        "name": "attributes_dc_61.b"
+      },
+      {
+        "bytes": 13640,
+        "name": "attributes_dc_62.b"
+      },
+      {
+        "bytes": 13352,
+        "name": "attributes_dc_63.b"
+      },
+      {
+        "bytes": 10531,
+        "name": "attributes_dc_64.b"
+      },
+      {
+        "bytes": 9131,
+        "name": "attributes_dc_65.b"
+      },
+      {
+        "bytes": 7400,
+        "name": "attributes_dc_66.b"
+      },
+      {
+        "bytes": 14743,
+        "name": "attributes_dc_7.b"
+      },
+      {
+        "bytes": 13968,
+        "name": "attributes_dc_8.b"
+      },
+      {
+        "bytes": 13871,
+        "name": "attributes_dc_9.b"
+      },
+      {
+        "bytes": 15289,
+        "name": "attributes_opacity_scale_0.b"
+      },
+      {
+        "bytes": 15067,
+        "name": "attributes_opacity_scale_1.b"
+      },
+      {
+        "bytes": 15223,
+        "name": "attributes_opacity_scale_10.b"
+      },
+      {
+        "bytes": 15114,
+        "name": "attributes_opacity_scale_11.b"
+      },
+      {
+        "bytes": 14954,
+        "name": "attributes_opacity_scale_12.b"
+      },
+      {
+        "bytes": 14462,
+        "name": "attributes_opacity_scale_13.b"
+      },
+      {
+        "bytes": 15284,
+        "name": "attributes_opacity_scale_14.b"
+      },
+      {
+        "bytes": 15049,
+        "name": "attributes_opacity_scale_15.b"
+      },
+      {
+        "bytes": 14997,
+        "name": "attributes_opacity_scale_16.b"
+      },
+      {
+        "bytes": 15155,
+        "name": "attributes_opacity_scale_17.b"
+      },
+      {
+        "bytes": 15096,
+        "name": "attributes_opacity_scale_18.b"
+      },
+      {
+        "bytes": 15142,
+        "name": "attributes_opacity_scale_19.b"
+      },
+      {
+        "bytes": 14931,
+        "name": "attributes_opacity_scale_2.b"
+      },
+      {
+        "bytes": 15232,
+        "name": "attributes_opacity_scale_20.b"
+      },
+      {
+        "bytes": 15098,
+        "name": "attributes_opacity_scale_21.b"
+      },
+      {
+        "bytes": 14848,
+        "name": "attributes_opacity_scale_22.b"
+      },
+      {
+        "bytes": 15202,
+        "name": "attributes_opacity_scale_23.b"
+      },
+      {
+        "bytes": 15133,
+        "name": "attributes_opacity_scale_24.b"
+      },
+      {
+        "bytes": 14967,
+        "name": "attributes_opacity_scale_25.b"
+      },
+      {
+        "bytes": 14858,
+        "name": "attributes_opacity_scale_26.b"
+      },
+      {
+        "bytes": 14990,
+        "name": "attributes_opacity_scale_27.b"
+      },
+      {
+        "bytes": 14870,
+        "name": "attributes_opacity_scale_28.b"
+      },
+      {
+        "bytes": 15225,
+        "name": "attributes_opacity_scale_29.b"
+      },
+      {
+        "bytes": 14513,
+        "name": "attributes_opacity_scale_3.b"
+      },
+      {
+        "bytes": 14969,
+        "name": "attributes_opacity_scale_30.b"
+      },
+      {
+        "bytes": 14771,
+        "name": "attributes_opacity_scale_31.b"
+      },
+      {
+        "bytes": 14941,
+        "name": "attributes_opacity_scale_32.b"
+      },
+      {
+        "bytes": 14784,
+        "name": "attributes_opacity_scale_33.b"
+      },
+      {
+        "bytes": 14854,
+        "name": "attributes_opacity_scale_34.b"
+      },
+      {
+        "bytes": 14604,
+        "name": "attributes_opacity_scale_35.b"
+      },
+      {
+        "bytes": 14413,
+        "name": "attributes_opacity_scale_36.b"
+      },
+      {
+        "bytes": 14814,
+        "name": "attributes_opacity_scale_37.b"
+      },
+      {
+        "bytes": 14699,
+        "name": "attributes_opacity_scale_38.b"
+      },
+      {
+        "bytes": 14422,
+        "name": "attributes_opacity_scale_39.b"
+      },
+      {
+        "bytes": 14511,
+        "name": "attributes_opacity_scale_4.b"
+      },
+      {
+        "bytes": 15175,
+        "name": "attributes_opacity_scale_40.b"
+      },
+      {
+        "bytes": 15144,
+        "name": "attributes_opacity_scale_41.b"
+      },
+      {
+        "bytes": 15087,
+        "name": "attributes_opacity_scale_42.b"
+      },
+      {
+        "bytes": 14979,
+        "name": "attributes_opacity_scale_43.b"
+      },
+      {
+        "bytes": 15128,
+        "name": "attributes_opacity_scale_44.b"
+      },
+      {
+        "bytes": 15325,
+        "name": "attributes_opacity_scale_45.b"
+      },
+      {
+        "bytes": 15355,
+        "name": "attributes_opacity_scale_46.b"
+      },
+      {
+        "bytes": 14946,
+        "name": "attributes_opacity_scale_47.b"
+      },
+      {
+        "bytes": 14828,
+        "name": "attributes_opacity_scale_48.b"
+      },
+      {
+        "bytes": 14909,
+        "name": "attributes_opacity_scale_49.b"
+      },
+      {
+        "bytes": 14382,
+        "name": "attributes_opacity_scale_5.b"
+      },
+      {
+        "bytes": 14692,
+        "name": "attributes_opacity_scale_50.b"
+      },
+      {
+        "bytes": 14786,
+        "name": "attributes_opacity_scale_51.b"
+      },
+      {
+        "bytes": 14942,
+        "name": "attributes_opacity_scale_52.b"
+      },
+      {
+        "bytes": 14888,
+        "name": "attributes_opacity_scale_53.b"
+      },
+      {
+        "bytes": 14773,
+        "name": "attributes_opacity_scale_54.b"
+      },
+      {
+        "bytes": 14971,
+        "name": "attributes_opacity_scale_55.b"
+      },
+      {
+        "bytes": 15108,
+        "name": "attributes_opacity_scale_56.b"
+      },
+      {
+        "bytes": 14870,
+        "name": "attributes_opacity_scale_57.b"
+      },
+      {
+        "bytes": 14742,
+        "name": "attributes_opacity_scale_58.b"
+      },
+      {
+        "bytes": 15015,
+        "name": "attributes_opacity_scale_59.b"
+      },
+      {
+        "bytes": 14973,
+        "name": "attributes_opacity_scale_6.b"
+      },
+      {
+        "bytes": 15216,
+        "name": "attributes_opacity_scale_60.b"
+      },
+      {
+        "bytes": 14866,
+        "name": "attributes_opacity_scale_61.b"
+      },
+      {
+        "bytes": 14748,
+        "name": "attributes_opacity_scale_62.b"
+      },
+      {
+        "bytes": 14852,
+        "name": "attributes_opacity_scale_63.b"
+      },
+      {
+        "bytes": 15049,
+        "name": "attributes_opacity_scale_64.b"
+      },
+      {
+        "bytes": 14950,
+        "name": "attributes_opacity_scale_65.b"
+      },
+      {
+        "bytes": 14871,
+        "name": "attributes_opacity_scale_66.b"
+      },
+      {
+        "bytes": 14900,
+        "name": "attributes_opacity_scale_67.b"
+      },
+      {
+        "bytes": 14986,
+        "name": "attributes_opacity_scale_68.b"
+      },
+      {
+        "bytes": 14792,
+        "name": "attributes_opacity_scale_69.b"
+      },
+      {
+        "bytes": 15391,
+        "name": "attributes_opacity_scale_7.b"
+      },
+      {
+        "bytes": 14837,
+        "name": "attributes_opacity_scale_70.b"
+      },
+      {
+        "bytes": 14749,
+        "name": "attributes_opacity_scale_71.b"
+      },
+      {
+        "bytes": 14834,
+        "name": "attributes_opacity_scale_72.b"
+      },
+      {
+        "bytes": 14939,
+        "name": "attributes_opacity_scale_73.b"
+      },
+      {
+        "bytes": 14882,
+        "name": "attributes_opacity_scale_74.b"
+      },
+      {
+        "bytes": 15034,
+        "name": "attributes_opacity_scale_75.b"
+      },
+      {
+        "bytes": 14977,
+        "name": "attributes_opacity_scale_76.b"
+      },
+      {
+        "bytes": 15158,
+        "name": "attributes_opacity_scale_77.b"
+      },
+      {
+        "bytes": 14565,
+        "name": "attributes_opacity_scale_78.b"
+      },
+      {
+        "bytes": 14673,
+        "name": "attributes_opacity_scale_79.b"
+      },
+      {
+        "bytes": 15149,
+        "name": "attributes_opacity_scale_8.b"
+      },
+      {
+        "bytes": 14988,
+        "name": "attributes_opacity_scale_80.b"
+      },
+      {
+        "bytes": 14865,
+        "name": "attributes_opacity_scale_81.b"
+      },
+      {
+        "bytes": 14899,
+        "name": "attributes_opacity_scale_82.b"
+      },
+      {
+        "bytes": 15018,
+        "name": "attributes_opacity_scale_83.b"
+      },
+      {
+        "bytes": 14772,
+        "name": "attributes_opacity_scale_84.b"
+      },
+      {
+        "bytes": 15341,
+        "name": "attributes_opacity_scale_85.b"
+      },
+      {
+        "bytes": 15242,
+        "name": "attributes_opacity_scale_86.b"
+      },
+      {
+        "bytes": 15162,
+        "name": "attributes_opacity_scale_87.b"
+      },
+      {
+        "bytes": 13029,
+        "name": "attributes_opacity_scale_88.b"
+      },
+      {
+        "bytes": 15199,
+        "name": "attributes_opacity_scale_9.b"
+      },
+      {
+        "bytes": 15236,
+        "name": "attributes_rotation_0.b"
+      },
+      {
+        "bytes": 15237,
+        "name": "attributes_rotation_1.b"
+      },
+      {
+        "bytes": 15960,
+        "name": "attributes_rotation_10.b"
+      },
+      {
+        "bytes": 15762,
+        "name": "attributes_rotation_11.b"
+      },
+      {
+        "bytes": 15803,
+        "name": "attributes_rotation_12.b"
+      },
+      {
+        "bytes": 15609,
+        "name": "attributes_rotation_13.b"
+      },
+      {
+        "bytes": 15868,
+        "name": "attributes_rotation_14.b"
+      },
+      {
+        "bytes": 15622,
+        "name": "attributes_rotation_15.b"
+      },
+      {
+        "bytes": 15728,
+        "name": "attributes_rotation_16.b"
+      },
+      {
+        "bytes": 15547,
+        "name": "attributes_rotation_17.b"
+      },
+      {
+        "bytes": 15661,
+        "name": "attributes_rotation_18.b"
+      },
+      {
+        "bytes": 15368,
+        "name": "attributes_rotation_19.b"
+      },
+      {
+        "bytes": 16031,
+        "name": "attributes_rotation_2.b"
+      },
+      {
+        "bytes": 15440,
+        "name": "attributes_rotation_20.b"
+      },
+      {
+        "bytes": 15283,
+        "name": "attributes_rotation_21.b"
+      },
+      {
+        "bytes": 15236,
+        "name": "attributes_rotation_22.b"
+      },
+      {
+        "bytes": 15425,
+        "name": "attributes_rotation_23.b"
+      },
+      {
+        "bytes": 15357,
+        "name": "attributes_rotation_24.b"
+      },
+      {
+        "bytes": 15376,
+        "name": "attributes_rotation_25.b"
+      },
+      {
+        "bytes": 15165,
+        "name": "attributes_rotation_26.b"
+      },
+      {
+        "bytes": 15266,
+        "name": "attributes_rotation_27.b"
+      },
+      {
+        "bytes": 15329,
+        "name": "attributes_rotation_28.b"
+      },
+      {
+        "bytes": 15418,
+        "name": "attributes_rotation_29.b"
+      },
+      {
+        "bytes": 15261,
+        "name": "attributes_rotation_3.b"
+      },
+      {
+        "bytes": 15462,
+        "name": "attributes_rotation_30.b"
+      },
+      {
+        "bytes": 15306,
+        "name": "attributes_rotation_31.b"
+      },
+      {
+        "bytes": 15402,
+        "name": "attributes_rotation_32.b"
+      },
+      {
+        "bytes": 15229,
+        "name": "attributes_rotation_33.b"
+      },
+      {
+        "bytes": 14997,
+        "name": "attributes_rotation_34.b"
+      },
+      {
+        "bytes": 15100,
+        "name": "attributes_rotation_35.b"
+      },
+      {
+        "bytes": 15023,
+        "name": "attributes_rotation_36.b"
+      },
+      {
+        "bytes": 15392,
+        "name": "attributes_rotation_37.b"
+      },
+      {
+        "bytes": 15194,
+        "name": "attributes_rotation_38.b"
+      },
+      {
+        "bytes": 14667,
+        "name": "attributes_rotation_39.b"
+      },
+      {
+        "bytes": 15881,
+        "name": "attributes_rotation_4.b"
+      },
+      {
+        "bytes": 14954,
+        "name": "attributes_rotation_40.b"
+      },
+      {
+        "bytes": 15359,
+        "name": "attributes_rotation_41.b"
+      },
+      {
+        "bytes": 15515,
+        "name": "attributes_rotation_42.b"
+      },
+      {
+        "bytes": 15681,
+        "name": "attributes_rotation_43.b"
+      },
+      {
+        "bytes": 15520,
+        "name": "attributes_rotation_44.b"
+      },
+      {
+        "bytes": 15453,
+        "name": "attributes_rotation_45.b"
+      },
+      {
+        "bytes": 15360,
+        "name": "attributes_rotation_46.b"
+      },
+      {
+        "bytes": 15126,
+        "name": "attributes_rotation_47.b"
+      },
+      {
+        "bytes": 15252,
+        "name": "attributes_rotation_48.b"
+      },
+      {
+        "bytes": 15291,
+        "name": "attributes_rotation_49.b"
+      },
+      {
+        "bytes": 15330,
+        "name": "attributes_rotation_5.b"
+      },
+      {
+        "bytes": 15150,
+        "name": "attributes_rotation_50.b"
+      },
+      {
+        "bytes": 15122,
+        "name": "attributes_rotation_51.b"
+      },
+      {
+        "bytes": 15149,
+        "name": "attributes_rotation_52.b"
+      },
+      {
+        "bytes": 15032,
+        "name": "attributes_rotation_53.b"
+      },
+      {
+        "bytes": 15139,
+        "name": "attributes_rotation_54.b"
+      },
+      {
+        "bytes": 15475,
+        "name": "attributes_rotation_55.b"
+      },
+      {
+        "bytes": 15340,
+        "name": "attributes_rotation_56.b"
+      },
+      {
+        "bytes": 15222,
+        "name": "attributes_rotation_57.b"
+      },
+      {
+        "bytes": 15096,
+        "name": "attributes_rotation_58.b"
+      },
+      {
+        "bytes": 15228,
+        "name": "attributes_rotation_59.b"
+      },
+      {
+        "bytes": 16037,
+        "name": "attributes_rotation_6.b"
+      },
+      {
+        "bytes": 15660,
+        "name": "attributes_rotation_60.b"
+      },
+      {
+        "bytes": 15412,
+        "name": "attributes_rotation_61.b"
+      },
+      {
+        "bytes": 15389,
+        "name": "attributes_rotation_62.b"
+      },
+      {
+        "bytes": 15373,
+        "name": "attributes_rotation_63.b"
+      },
+      {
+        "bytes": 15450,
+        "name": "attributes_rotation_64.b"
+      },
+      {
+        "bytes": 15567,
+        "name": "attributes_rotation_65.b"
+      },
+      {
+        "bytes": 15435,
+        "name": "attributes_rotation_66.b"
+      },
+      {
+        "bytes": 15283,
+        "name": "attributes_rotation_67.b"
+      },
+      {
+        "bytes": 15284,
+        "name": "attributes_rotation_68.b"
+      },
+      {
+        "bytes": 15133,
+        "name": "attributes_rotation_69.b"
+      },
+      {
+        "bytes": 16353,
+        "name": "attributes_rotation_7.b"
+      },
+      {
+        "bytes": 15048,
+        "name": "attributes_rotation_70.b"
+      },
+      {
+        "bytes": 15035,
+        "name": "attributes_rotation_71.b"
+      },
+      {
+        "bytes": 15134,
+        "name": "attributes_rotation_72.b"
+      },
+      {
+        "bytes": 15244,
+        "name": "attributes_rotation_73.b"
+      },
+      {
+        "bytes": 15059,
+        "name": "attributes_rotation_74.b"
+      },
+      {
+        "bytes": 15224,
+        "name": "attributes_rotation_75.b"
+      },
+      {
+        "bytes": 15203,
+        "name": "attributes_rotation_76.b"
+      },
+      {
+        "bytes": 15398,
+        "name": "attributes_rotation_77.b"
+      },
+      {
+        "bytes": 15910,
+        "name": "attributes_rotation_78.b"
+      },
+      {
+        "bytes": 15787,
+        "name": "attributes_rotation_79.b"
+      },
+      {
+        "bytes": 16054,
+        "name": "attributes_rotation_8.b"
+      },
+      {
+        "bytes": 15539,
+        "name": "attributes_rotation_80.b"
+      },
+      {
+        "bytes": 15863,
+        "name": "attributes_rotation_81.b"
+      },
+      {
+        "bytes": 15487,
+        "name": "attributes_rotation_82.b"
+      },
+      {
+        "bytes": 15786,
+        "name": "attributes_rotation_83.b"
+      },
+      {
+        "bytes": 15947,
+        "name": "attributes_rotation_84.b"
+      },
+      {
+        "bytes": 15805,
+        "name": "attributes_rotation_85.b"
+      },
+      {
+        "bytes": 15899,
+        "name": "attributes_rotation_86.b"
+      },
+      {
+        "bytes": 16400,
+        "name": "attributes_rotation_87.b"
+      },
+      {
+        "bytes": 13653,
+        "name": "attributes_rotation_88.b"
+      },
+      {
+        "bytes": 15910,
+        "name": "attributes_rotation_9.b"
+      },
+      {
+        "bytes": 8800,
+        "name": "attributes_sh_d1_0.b"
+      },
+      {
+        "bytes": 8504,
+        "name": "attributes_sh_d1_1.b"
+      },
+      {
+        "bytes": 7078,
+        "name": "attributes_sh_d1_10.b"
+      },
+      {
+        "bytes": 9436,
+        "name": "attributes_sh_d1_2.b"
+      },
+      {
+        "bytes": 8914,
+        "name": "attributes_sh_d1_3.b"
+      },
+      {
+        "bytes": 9550,
+        "name": "attributes_sh_d1_4.b"
+      },
+      {
+        "bytes": 10807,
+        "name": "attributes_sh_d1_5.b"
+      },
+      {
+        "bytes": 9464,
+        "name": "attributes_sh_d1_6.b"
+      },
+      {
+        "bytes": 9594,
+        "name": "attributes_sh_d1_7.b"
+      },
+      {
+        "bytes": 9570,
+        "name": "attributes_sh_d1_8.b"
+      },
+      {
+        "bytes": 7833,
+        "name": "attributes_sh_d1_9.b"
+      },
+      {
+        "bytes": 9939,
+        "name": "attributes_sh_d2_0.b"
+      },
+      {
+        "bytes": 3038,
+        "name": "attributes_sh_d2_1.b"
+      },
+      {
+        "bytes": 9403,
+        "name": "attributes_sh_d3_0.b"
+      },
+      {
+        "bytes": 8453,
+        "name": "attributes_sh_d3_1.b"
+      },
+      {
+        "bytes": 35100,
+        "name": "collision_records.bin"
+      },
+      {
+        "bytes": 2215,
+        "name": "hard_points.b"
+      },
+      {
+        "bytes": 13472,
+        "name": "hash.b"
+      },
+      {
+        "bytes": 33256,
+        "name": "model.bin"
+      },
+      {
+        "bytes": 13648,
+        "name": "sh_ge_1.b"
+      },
+      {
+        "bytes": 923,
+        "name": "sh_ge_2.b"
+      },
+      {
+        "bytes": 972842,
+        "name": "xyz_gpcc.bin"
+      }
+    ],
+    "format": "sha256-tree-v1",
+    "payload_bytes": 4768102,
+    "payload_file_count": 267,
+    "payload_sha256": "6b9ba6a156f9ef6125a12e080728de4c9c5bcd5115a72aa39d25e1a089ffa9fc"
+  },
+  "model_config": {
+    "attribute_dim": 56,
+    "features_per_level": 2,
+    "group_order": [
+      "dc",
+      "opacity_scale",
+      "rotation",
+      "sh_d1",
+      "sh_d2",
+      "sh_d3"
+    ],
+    "hidden_dim": 64,
+    "log2_hashmap_size": 12,
+    "log2_hashmap_size_2d": 12,
+    "log2_hashmap_size_spherical": 11,
+    "prefix_dim": 24,
+    "resolutions": [
+      8,
+      12,
+      18,
+      27,
+      40,
+      60
+    ],
+    "resolutions_2d": [
+      16,
+      32,
+      64,
+      128
+    ],
+    "spherical_feature_dim": 4,
+    "spherical_resolutions": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "symbol_clip": 15000.0
+  },
+  "num_points": 355410,
+  "phase": "8.8",
+  "quant_bits": 10,
+  "quantization_contract": {
+    "centered_clamp_center": "zero",
+    "centered_symbol_limit": 15000,
+    "format": "phase8.4_56_channel_group_multiplier_v3",
+    "geometry_policy": "fixed_by_hac_geometry_bits",
+    "hard_q_scale": 0.5
+  },
+  "rd_profile": {
+    "attribute_dim": 56,
+    "base_quantization_format": "phase8.4_per_channel_symmetric_minmax_v2",
+    "centered_clamp_center": "zero",
+    "centered_symbol_limit": 15000,
+    "format": "phase8.4_rd_multiplier_profile_v4",
+    "geometry_policy": "fixed_by_hac_geometry_bits",
+    "group_order": [
+      "sh_dc",
+      "sh_d1",
+      "sh_d2",
+      "sh_d3",
+      "opacity",
+      "scale",
+      "rotation"
+    ],
+    "hard_q_scale": 0.5,
+    "multiplier_bounds": [
+      0.5,
+      4.0
+    ],
+    "multipliers": {
+      "opacity": 3.25239372253,
+      "rotation": 1.33726620674,
+      "scale": 2.05113983154,
+      "sh_d1": 3.63480234146,
+      "sh_d2": 3.63133764267,
+      "sh_d3": 3.61081552505,
+      "sh_dc": 1.91696059704
+    },
+    "quant_bits": 10,
+    "quantizer": "center_j + round(clamp(attribute_ij-center_j, -15000*q_ij, +15000*q_ij) / q_ij) * q_ij; q_ij=base_step_j*group_multiplier_j*hard_scale_i",
+    "sha256": "0730e74ff6abe0f550a3f1c997cbb65f081b9b6487c1c20fbd032d5685570bb2"
+  },
+  "scene_fingerprint": "e12589b4ba7cc6fb32793b8797e981084d60d464933a96ba0d589058591d6aa3",
+  "sh_level_stream": {
+    "format": "phase8.5_conditional_sh_levels_v1",
+    "point_count": 355410,
+    "stages": [
+      {
+        "condition": "all_points",
+        "constant": null,
+        "degree": 1,
+        "file": "sh_ge_1.b",
+        "mode": "arithmetic",
+        "ones_count": 19209,
+        "symbol_count": 355410
+      },
+      {
+        "condition": "sh_ge_1",
+        "constant": null,
+        "degree": 2,
+        "file": "sh_ge_2.b",
+        "mode": "arithmetic",
+        "ones_count": 1403,
+        "symbol_count": 19209
+      },
+      {
+        "condition": "sh_ge_2",
+        "constant": 1,
+        "degree": 3,
+        "file": null,
+        "mode": "constant",
+        "ones_count": 1403,
+        "symbol_count": 1403
+      }
+    ]
+  },
+  "sh_selector": {
+    "batch_size": 4096,
+    "bits_per_symbol_proxy": 8.0,
+    "downgraded_points": 354007,
+    "format": "phase8.5_learned_sh_levels_v1",
+    "hard_floor": 0,
+    "hard_floor_added_active_symbols": 0,
+    "hard_floor_adjusted_points": 0,
+    "hard_floor_application": "after_source_fallback;source_level_bounded;hard_points_only",
+    "hard_floor_eligible_points": 1792,
+    "hard_point_count": 1792,
+    "hard_weight": 4.0,
+    "importance": "renderer_sh_counterfactual_band_first_order_v1",
+    "importance_layout": "point_x_sh_band_direct_counterfactual_cost",
+    "importance_sha256": "ec8b52d209f0a6fbcc9dfb097088365730f69f0207ec252c6f2282b4bc56c4c3",
+    "lambda_rate": 0.013796223500143206,
+    "learned_active_symbols": 4132899,
+    "learned_proxy_cost": 1.2404592037200928,
+    "learned_proxy_rate_bits": 8695439.0,
+    "learning_rate": 0.002,
+    "num_points": 355410,
+    "oracle_agreement": 0.9857319715258434,
+    "oracle_proxy_cost": 1.239307165145874,
+    "ordinal_level_rate_bits": [
+      19.439128875732422,
+      19.439130783081055,
+      19.439132690429688,
+      6.088849659136031e-06
+    ],
+    "scene_fingerprint": "e12589b4ba7cc6fb32793b8797e981084d60d464933a96ba0d589058591d6aa3",
+    "selector_input_dim": 10,
+    "source_active_symbols": 19902960,
+    "source_fallback_points": 1403,
+    "source_proxy_cost": 4.969773292541504,
+    "source_proxy_rate_bits": 128028240.0,
+    "steps": 500
+  },
+  "source_metadata": {
+    "active_sh_degree": 3,
+    "max_sh_degree": 3,
+    "scene_extent": 1.1451547145843506
+  },
+  "spherical_profile": {
+    "camera_count": 51,
+    "center": [
+      1.0178587436676025,
+      0.6452480554580688,
+      -0.19008830189704895
+    ],
+    "center_method": "camera_geometric_median_weiszfeld_v1",
+    "direction_transform": "unit_offset_zero_at_center_v1",
+    "dtype": "float32",
+    "format": "phase8.7_spherical_reference_v1",
+    "log_radius_transform": "log1p_radius_over_scale_v1",
+    "radius_epsilon": 9.999999974752427e-07,
+    "radius_scale": 5.053717613220215,
+    "radius_scale_method": "median_positive_geometry_radius_v1",
+    "weiszfeld_iterations": 16,
+    "weiszfeld_max_iterations": 256,
+    "weiszfeld_tolerance": 9.999999974752427e-07
+  },
+  "steps": [
+    0.0339200422167778,
+    0.0331617034971714,
+    0.03342914208769798,
+    0.011166341602802277,
+    0.01102394051849842,
+    0.011531027965247631,
+    0.018602466210722923,
+    0.018512163311243057,
+    0.018234306946396828,
+    0.01180888433009386,
+    0.010815548710525036,
+    0.010999628342688084,
+    0.011648423038423061,
+    0.011051601730287075,
+    0.011280613951385021,
+    0.0185361560434103,
+    0.0186055526137352,
+    0.01845981925725937,
+    0.015676964074373245,
+    0.015302218496799469,
+    0.015253637917339802,
+    0.01743272878229618,
+    0.017398031428456306,
+    0.01765480265021324,
+    0.012744908221065998,
+    0.014743564650416374,
+    0.014660287648439407,
+    0.01420135609805584,
+    0.013211125507950783,
+    0.012265748344361782,
+    0.016005853191018105,
+    0.01592649705708027,
+    0.015871291980147362,
+    0.021543553099036217,
+    0.02201969176530838,
+    0.022040393203496933,
+    0.018058769404888153,
+    0.018231283873319626,
+    0.01825198531150818,
+    0.019714904949069023,
+    0.019783910363912582,
+    0.020384259521961212,
+    0.0180518701672554,
+    0.018231283873319626,
+    0.01825888641178608,
+    0.01734801195561886,
+    0.01759643293917179,
+    0.01758263073861599,
+    0.08054159581661224,
+    0.06225576996803284,
+    0.06565040349960327,
+    0.06325142085552216,
+    0.006927019450813532,
+    0.006253612693399191,
+    0.007832988165318966,
+    0.006013384088873863
+  ],
+  "upstream_commit": "46e3c4f4e2b99f98fc9d3da3f235b63aea8504f0",
+  "xyz_max": [
+    733.3057250976562,
+    518.2072143554688,
+    426.89276123046875
+  ],
+  "xyz_min": [
+    -477.1921081542969,
+    -495.80804443359375,
+    -363.71356201171875
+  ]
+}
