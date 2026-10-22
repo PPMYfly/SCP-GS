@@ -1,0 +1,29 @@
+{
+  "dataset": "OmniPhotos",
+  "format": "phase8.8_erp_metrics_v1",
+  "fps": 96.16387285573344,
+  "gt_dir": "renders/reference",
+  "lpips": 0.16829323997864357,
+  "lpips_backbone": "alex",
+  "metric_contract": {
+    "resize": "forbidden",
+    "rgb_range": "decoded_8bit_rgb_[0,1]",
+    "scene_reduction": "arithmetic_mean_over_matched_test_views",
+    "ssim_reduction": "mean_of_full_skimage_score_map_phase6.4_compatible",
+    "ws_weight": "cosine_of_erp_pixel_center_latitude"
+  },
+  "num_images": 13,
+  "per_image_csv": "per_image_metrics.csv",
+  "pred_dir": "renders/decoded",
+  "psnr": 28.808754074331816,
+  "render_ms": 10.398915625,
+  "resolution": {
+    "height": 960,
+    "width": 1920
+  },
+  "scene": "Field",
+  "ssim": 0.8334094056716332,
+  "timing_frames": 8,
+  "ws_psnr": 28.469478761469496,
+  "ws_ssim": 0.8227789488553371
+}
