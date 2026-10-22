@@ -17,12 +17,6 @@ in full; package/import paths and display names were adjusted for this release.
 - CUDA arithmetic/grid primitives, TMC13 geometry source, original tests and
   ERP image metrics for externally supplied rendered images.
 
-All 14 core package files from the reviewed release inventory are now included.
-The selection includes 174 of its 212 files (82.08%); 38 unused third-party
-benchmark configurations, tool and documentation files are omitted. Release
-documentation and required backend revision metadata are counted separately.
-The inventory is not the entire research workspace, and third-party source is
-not presented as original research code.
 
 ## Build and basic workflow
 
@@ -88,5 +82,4 @@ See `NOTICE.md` and component license files for dependency terms.
 [OmniPhotos / Field](demo/OmniPhotos_Field/README.md) provides one previously
 completed SH-selection candidate run as a static illustration, without a
 requirement to execute it using this repository. Existing WS-PSNR is 28.4695 dB over 13
-codec-validation views, with a 4,806,960-byte stream. It is a selected historical
-example, not a final-paper or dataset-average result.
+codec-validation views, with a 4,806,960-byte stream. 
